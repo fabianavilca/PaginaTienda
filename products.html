@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tienda - Products</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <header class="bg-white shadow">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="index.html" class="text-2xl font-bold text-indigo-600">TiendaRopa</a>
+      <nav class="space-x-6">
+        <a href="index.html" class="text-gray-700 hover:text-indigo-600">Home</a>
+        <a href="about.html" class="text-gray-700 hover:text-indigo-600">About</a>
+        <a href="products.html" class="text-gray-700 hover:text-indigo-600">Products</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 py-12">
+    <h1 class="text-3xl font-extrabold">Productos</h1>
+    <p class="mt-2 text-gray-600">Explora nuestra selección de ropa para hombre y mujer. Filtra por categoría, talla y color.</p>
+
+    <div class="mt-6 flex items-center justify-between">
+      <div class="flex items-center space-x-2">
+        <label class="text-sm text-gray-600">Categoría:</label>
+        <select class="border rounded px-3 py-2 text-sm">
+          <option>Todos</option>
+          <option>Camisetas</option>
+          <option>Chaquetas</option>
+          <option>Pantalones</option>
+        </select>
+      </div>
+
+      <div class="text-sm text-gray-500">Mostrando 9 productos</div>
+    </div>
+
+    <div class="mt-6 grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <!-- Repetir producto -->
+      <article class="bg-white p-4 rounded-lg shadow">
+        <img src="https://picsum.photos/seed/prod1/600/600" alt="producto" class="w-full h-56 object-cover rounded-md" />
+        <h3 class="mt-3 font-medium">Camiseta algodón</h3>
+        <p class="text-sm text-gray-500">100% algodón orgánico</p>
+        <div class="mt-3 flex items-center justify-between">
+          <span class="font-bold">$24.99</span>
+          <button class="bg-indigo-600 text-white px-3 py-1 rounded text-sm">Añadir</button>
+        </div>
+      </article>
+
+      <article class="bg-white p-4 rounded-lg shadow">
+        <img src="https://picsum.photos/seed/prod2/600/600" alt="producto" class="w-full h-56 object-cover rounded-md" />
+        <h3 class="mt-3 font-medium">Sudadera con capucha</h3>
+        <p class="text-sm text-gray-500">Cálida y suave</p>
+        <div class="mt-3 flex items-center justify-between">
+          <span class="font-bold">$39.99</span>
+          <button class="bg-indigo-600 text-white px-3 py-1 rounded text-sm">Añadir</button>
+        </div>
+      </article>
+
+      <article class="bg-white p-4 rounded-lg shadow">
+        <img src="https://picsum.photos/seed/prod3/600/600" alt="producto" class="w-full h-56 object-cover rounded-md" />
+        <h3 class="mt-3 font-medium">Jeans clásicos</h3>
+        <p class="text-sm text-gray-500">Denim resistente</p>
+        <div class="mt-3 flex items-center justify-between">
+          <span class="font-bold">$59.99</span>
+          <button class="bg-indigo-600 text-white px-3 py-1 rounded text-sm">Añadir</button>
+        </div>
+      </article>
+
+      <!-- más productos (3x) -->
+      <article class="bg-white p-4 rounded-lg shadow">
+        <img src="https://picsum.photos/seed/prod4/600/600" alt="producto" class="w-full h-56 object-cover rounded-md" />
+        <h3 class="mt-3 font-medium">Vestido veraniego</h3>
+        <p class="text-sm text-gray-500">Ligero y fresco</p>
+        <div class="mt-3 flex items-center justify-between">
+          <span class="font-bold">$44.99</span>
+          <button class="bg-indigo-600 text-white px-3 py-1 rounded text-sm">Añadir</button>
+        </div>
+      </article>
+
+      <article class="bg-white p-4 rounded-lg shadow">
+        <img src="https://picsum.photos/seed/prod5/600/600" alt="producto" class="w-full h-56 object-cover rounded-md" />
+        <h3 class="mt-3 font-medium">Abrigo lana</h3>
+        <p class="text-sm text-gray-500">Elegante y cálido</p>
+        <div class="mt-3 flex items-center justify-between">
+          <span class="font-bold">$129.99</span>
+          <button class="bg-indigo-600 text-white px-3 py-1 rounded text-sm">Añadir</button>
+        </div>
+      </article>
+
+      <article class="bg-white p-4 rounded-lg shadow">
+        <img src="https://picsum.photos/seed/prod6/600/600" alt="producto" class="w-full h-56 object-cover rounded-md" />
+        <h3 class="mt-3 font-medium">Shorts deportivos</h3>
+        <p class="text-sm text-gray-500">Secado rápido</p>
+        <div class="mt-3 flex items-center justify-between">
+          <span class="font-bold">$29.99</span>
+          <button class="bg-indigo-600 text-white px-3 py-1 rounded text-sm">Añadir</button>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="bg-white border-t mt-12">
+    <div class="max-w-6xl mx-auto px-4 py-6 text-sm text-gray-600">© 2025 TiendaRopa — Ropa con estilo y responsabilidad</div>
+  </footer>
+</body>
+</html>
